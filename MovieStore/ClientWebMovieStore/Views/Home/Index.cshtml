@@ -1,0 +1,81 @@
+﻿<div>
+    @{ int a = 0;
+    }
+    @foreach (var movie in  ViewBag.Movies)
+    {
+        
+        
+        <div style="display: none; background-color: #ffd9b3" id="hidden-content_@a" avalue="@movie.picture_path">
+            <div style="padding:5px;border-radius:1px;box-shadow:inset; background-color:#595959;color:white;"><p><b>@movie.title</b> - @movie.category - @movie.description  Score: @movie.punctuation</p></div>
+            
+            
+        </div>
+        <a href="#" class="execute" id="@a"><img src="@movie.thumbnail_path"/></a>
+        a++;
+    }
+
+
+
+    
+     
+
+</div>
+
+<script>
+
+   
+    $(document).ready(function() {
+
+        $(".execute").click(function(a) {
+
+            //   console.log($(this).attr('id'));
+            var path = $("#hidden-content_" + $(this).attr('id')).attr('avalue');
+            var idDiv = "#hidden-content_" + $(this).attr('id');
+            $(idDiv).dialog({
+                width:450,
+                modal: true,
+                title: "Movie Info",
+                fadeIn: 'fast',
+                fadeOut: 'fast',
+                autoopen: false,
+                closeText: '',
+                dialogClass: "no-close",
+                buttons: {
+                    "1": { id: 'close', text: 'Close', click: function(){ $(this).dialog("close"); }, "class": "orange" },
+                  
+                },
+                // position: [150, 100],
+             
+                open:function(event,ui) {
+                    $(idDiv).append("<img class='imgdevil' src='" + path + "'>");
+                   
+                   
+                      
+                    //   $(idDiv).css("background-repeat", "no-repeat");
+                },
+                close:function(event, ui) {
+                    $(".imgdevil").detach();
+
+                }
+
+            });
+
+        });
+    });
+    
+</script>
+
+<style>
+    .ui-dialog{top: 100px !important;}
+    .ui-widget-overlay
+{
+        z-index: -1;   
+}
+    .ui-button.ui-corner-all.ui-widget.ui-button-icon-only.ui-dialog-titlebar-close {
+    display: none;
+}
+    .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset .orange {
+}
+
+    .ui-button-icon ui-icon ui-icon-closethick{display:none;}
+</style>
