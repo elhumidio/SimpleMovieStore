@@ -1,0 +1,138 @@
+2019-04-25 09:46:03.8657 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-04-25 09:46:03.8657 Debug Found assembly location directory: 'C:\test\MovieStore\MovieStore\MovieStore\MovieStore\bin' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-04-25 09:46:03.8787 Debug Search for auto loading files in location: C:\test\MovieStore\MovieStore\MovieStore\MovieStore\bin
+2019-04-25 09:46:03.8787 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\test\MovieStore\MovieStore\MovieStore\MovieStore
+2019-04-25 09:46:03.8787 Debug Search for auto loading files in location: C:\test\MovieStore\MovieStore\MovieStore\MovieStore
+2019-04-25 09:46:03.8787 Debug Start auto loading, location: C:\test\MovieStore\MovieStore\MovieStore\MovieStore\bin
+2019-04-25 09:46:03.8787 Debug Auto loading done
+2019-04-25 09:46:03.8787 Info Message Template Auto Format enabled
+2019-04-25 09:46:03.8787 Debug Setting 'DateLayoutRenderer.format' to 'yyyy'
+2019-04-25 09:46:03.8936 Debug Setting 'DateLayoutRenderer.format' to 'MM'
+2019-04-25 09:46:03.8936 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-04-25 09:46:03.8936 Debug Setting 'FileTarget.name' to 'fileError'
+2019-04-25 09:46:03.8936 Debug Setting 'FileTarget.fileName' to '${basedir}/logs/${date:format=yyyy}/${date:format=MM}/${shortdate}_Error.log'
+2019-04-25 09:46:03.8936 Debug Setting 'DateLayoutRenderer.format' to 'yyyy'
+2019-04-25 09:46:03.8936 Debug Setting 'DateLayoutRenderer.format' to 'MM'
+2019-04-25 09:46:03.8936 Debug Setting 'FileTarget.layout' to '${date:format=dd/MM/yyyy HH\:mm\:ss}; ${message}'
+2019-04-25 09:46:03.8936 Debug Setting 'DateLayoutRenderer.format' to 'dd/MM/yyyy HH:mm:ss'
+2019-04-25 09:46:03.8936 Info Adding target FileTarget(Name=fileError)
+2019-04-25 09:46:03.8936 Debug Registered target fileError: NLog.Targets.FileTarget
+2019-04-25 09:46:03.8936 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-04-25 09:46:03.9106 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-04-25 09:46:03.9106 Debug Watching path 'C:\test\MovieStore\MovieStore\MovieStore\MovieStore' filter 'NLog.config' for changes.
+2019-04-25 09:46:03.9106 Debug --- NLog configuration dump ---
+2019-04-25 09:46:03.9106 Debug Targets:
+2019-04-25 09:46:03.9106 Debug File Target[fileError]
+2019-04-25 09:46:03.9106 Debug Rules:
+2019-04-25 09:46:03.9106 Debug logNamePattern: (:All) levels: [ Error ] appendTo: [ fileError ]
+2019-04-25 09:46:03.9106 Debug --- End of NLog configuration dump ---
+2019-04-25 09:46:03.9106 Info Found 14 configuration items
+2019-04-25 09:46:03.9325 Info Configuration initialized.
+2019-04-25 09:46:03.9325 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 09:46:03.9325 Debug Targets for MovieStore.Controllers.MoviesController by level:
+2019-04-25 09:46:03.9325 Debug Trace =>
+2019-04-25 09:46:03.9325 Debug Debug =>
+2019-04-25 09:46:03.9325 Debug Info =>
+2019-04-25 09:46:03.9325 Debug Warn =>
+2019-04-25 09:46:03.9325 Debug Error => fileError
+2019-04-25 09:46:03.9325 Debug Fatal =>
+2019-04-25 09:46:03.9634 Debug FileTarget(Name=fileError): Process file 'C:\test\MovieStore\MovieStore\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log' on startup
+2019-04-25 09:46:03.9724 Debug Creating file appender: C:\test\MovieStore\MovieStore\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log
+2019-04-25 09:46:10.7033 Info AppDomain Shutting down. Logger closing...
+2019-04-25 09:46:10.7033 Debug Stopping file watching for path 'C:\test\MovieStore\MovieStore\MovieStore\MovieStore' filter 'NLog.config'
+2019-04-25 09:46:10.7033 Debug Targets not configured for logger: MovieStore.Controllers.MoviesController
+2019-04-25 09:46:10.7033 Debug Closing logging configuration...
+2019-04-25 09:46:10.7033 Debug Closing target 'File Target[fileError]'.
+2019-04-25 09:46:10.7033 Debug FileAppender Closing Invalidate - C:\test\MovieStore\MovieStore\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log
+2019-04-25 09:46:10.7033 Debug Closed target 'File Target[fileError]'.
+2019-04-25 09:46:10.7033 Debug Finished closing logging configuration.
+2019-04-25 09:46:10.7033 Info Logger has been shut down.
+2019-04-25 09:59:50.9462 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-04-25 09:59:50.9572 Debug Found assembly location directory: 'C:\test\MovieStore\MovieStore\bin' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-04-25 09:59:50.9572 Debug Search for auto loading files in location: C:\test\MovieStore\MovieStore\bin
+2019-04-25 09:59:50.9572 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\test\MovieStore\MovieStore
+2019-04-25 09:59:50.9572 Debug Search for auto loading files in location: C:\test\MovieStore\MovieStore
+2019-04-25 09:59:50.9572 Debug Start auto loading, location: C:\test\MovieStore\MovieStore\bin
+2019-04-25 09:59:50.9572 Debug Auto loading done
+2019-04-25 09:59:50.9572 Info Message Template Auto Format enabled
+2019-04-25 09:59:50.9572 Debug Setting 'DateLayoutRenderer.format' to 'yyyy'
+2019-04-25 09:59:50.9732 Debug Setting 'DateLayoutRenderer.format' to 'MM'
+2019-04-25 09:59:50.9732 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-04-25 09:59:50.9732 Debug Setting 'FileTarget.name' to 'fileError'
+2019-04-25 09:59:50.9732 Debug Setting 'FileTarget.fileName' to '${basedir}/logs/${date:format=yyyy}/${date:format=MM}/${shortdate}_Error.log'
+2019-04-25 09:59:50.9732 Debug Setting 'DateLayoutRenderer.format' to 'yyyy'
+2019-04-25 09:59:50.9732 Debug Setting 'DateLayoutRenderer.format' to 'MM'
+2019-04-25 09:59:50.9732 Debug Setting 'FileTarget.layout' to '${date:format=dd/MM/yyyy HH\:mm\:ss}; ${message}'
+2019-04-25 09:59:50.9732 Debug Setting 'DateLayoutRenderer.format' to 'dd/MM/yyyy HH:mm:ss'
+2019-04-25 09:59:50.9732 Info Adding target FileTarget(Name=fileError)
+2019-04-25 09:59:50.9732 Debug Registered target fileError: NLog.Targets.FileTarget
+2019-04-25 09:59:50.9732 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-04-25 09:59:50.9891 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-04-25 09:59:50.9891 Debug Watching path 'C:\test\MovieStore\MovieStore' filter 'NLog.config' for changes.
+2019-04-25 09:59:50.9891 Debug --- NLog configuration dump ---
+2019-04-25 09:59:50.9891 Debug Targets:
+2019-04-25 09:59:50.9891 Debug File Target[fileError]
+2019-04-25 09:59:50.9891 Debug Rules:
+2019-04-25 09:59:50.9891 Debug logNamePattern: (:All) levels: [ Error ] appendTo: [ fileError ]
+2019-04-25 09:59:50.9891 Debug --- End of NLog configuration dump ---
+2019-04-25 09:59:50.9891 Info Found 14 configuration items
+2019-04-25 09:59:51.0070 Info Configuration initialized.
+2019-04-25 09:59:51.0070 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 09:59:51.0070 Debug Targets for MovieStore.Controllers.MoviesController by level:
+2019-04-25 09:59:51.0070 Debug Trace =>
+2019-04-25 09:59:51.0070 Debug Debug =>
+2019-04-25 09:59:51.0070 Debug Info =>
+2019-04-25 09:59:51.0070 Debug Warn =>
+2019-04-25 09:59:51.0070 Debug Error => fileError
+2019-04-25 09:59:51.0070 Debug Fatal =>
+2019-04-25 09:59:51.0391 Debug FileTarget(Name=fileError): Process file 'C:\test\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log' on startup
+2019-04-25 09:59:51.0391 Debug Creating file appender: C:\test\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log
+2019-04-25 13:46:34.5962 Debug ScanAssembly('NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c')
+2019-04-25 13:46:34.6291 Debug Found assembly location directory: 'C:\test\MovieStore\MovieStore\bin' (NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c)
+2019-04-25 13:46:34.6301 Debug Search for auto loading files in location: C:\test\MovieStore\MovieStore\bin
+2019-04-25 13:46:34.6301 Debug Auto loading based on AppDomain-BaseDirectory found location: C:\test\MovieStore\MovieStore
+2019-04-25 13:46:34.6301 Debug Search for auto loading files in location: C:\test\MovieStore\MovieStore
+2019-04-25 13:46:34.6301 Debug Start auto loading, location: C:\test\MovieStore\MovieStore\bin
+2019-04-25 13:46:34.6301 Debug Auto loading done
+2019-04-25 13:46:34.6301 Info Message Template Auto Format enabled
+2019-04-25 13:46:34.6301 Debug Setting 'DateLayoutRenderer.format' to 'yyyy'
+2019-04-25 13:46:34.6301 Debug Setting 'DateLayoutRenderer.format' to 'MM'
+2019-04-25 13:46:34.6490 Debug Setting 'UppercaseLayoutRendererWrapper.uppercase' to 'true'
+2019-04-25 13:46:34.6490 Debug Setting 'FileTarget.name' to 'fileError'
+2019-04-25 13:46:34.6490 Debug Setting 'FileTarget.fileName' to '${basedir}/logs/${date:format=yyyy}/${date:format=MM}/${shortdate}_Error.log'
+2019-04-25 13:46:34.6490 Debug Setting 'DateLayoutRenderer.format' to 'yyyy'
+2019-04-25 13:46:34.6490 Debug Setting 'DateLayoutRenderer.format' to 'MM'
+2019-04-25 13:46:34.6490 Debug Setting 'FileTarget.layout' to '${date:format=dd/MM/yyyy HH\:mm\:ss}; ${message}'
+2019-04-25 13:46:34.6490 Debug Setting 'DateLayoutRenderer.format' to 'dd/MM/yyyy HH:mm:ss'
+2019-04-25 13:46:34.6490 Info Adding target FileTarget(Name=fileError)
+2019-04-25 13:46:34.6490 Debug Registered target fileError: NLog.Targets.FileTarget
+2019-04-25 13:46:34.6490 Debug Unused target checking is started... Rule Count: 1, Target Count: 1
+2019-04-25 13:46:34.6610 Debug Unused target checking is completed. Total Rule Count: 1, Total Target Count: 1, Unused Target Count: 0
+2019-04-25 13:46:34.6610 Debug Watching path 'C:\test\MovieStore\MovieStore' filter 'NLog.config' for changes.
+2019-04-25 13:46:34.6610 Debug --- NLog configuration dump ---
+2019-04-25 13:46:34.6610 Debug Targets:
+2019-04-25 13:46:34.6610 Debug File Target[fileError]
+2019-04-25 13:46:34.6610 Debug Rules:
+2019-04-25 13:46:34.6610 Debug logNamePattern: (:All) levels: [ Error ] appendTo: [ fileError ]
+2019-04-25 13:46:34.6610 Debug --- End of NLog configuration dump ---
+2019-04-25 13:46:34.6610 Info Found 14 configuration items
+2019-04-25 13:46:34.6779 Info Configuration initialized.
+2019-04-25 13:46:34.6779 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.6.2.9511. Product version: 4.6.2.
+2019-04-25 13:46:34.6779 Debug Targets for MovieStore.Controllers.MoviesController by level:
+2019-04-25 13:46:34.6779 Debug Trace =>
+2019-04-25 13:46:34.6779 Debug Debug =>
+2019-04-25 13:46:34.6779 Debug Info =>
+2019-04-25 13:46:34.6779 Debug Warn =>
+2019-04-25 13:46:34.6779 Debug Error => fileError
+2019-04-25 13:46:34.6779 Debug Fatal =>
+2019-04-25 13:46:34.7138 Debug FileTarget(Name=fileError): Process file 'C:\test\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log' on startup
+2019-04-25 13:46:34.7138 Debug Creating file appender: C:\test\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log
+2019-04-25 13:46:48.3118 Info AppDomain Shutting down. Logger closing...
+2019-04-25 13:46:48.3118 Debug Stopping file watching for path 'C:\test\MovieStore\MovieStore' filter 'NLog.config'
+2019-04-25 13:46:48.3177 Debug Targets not configured for logger: MovieStore.Controllers.MoviesController
+2019-04-25 13:46:48.3177 Debug Closing logging configuration...
+2019-04-25 13:46:48.3177 Debug Closing target 'File Target[fileError]'.
+2019-04-25 13:46:48.3177 Debug FileAppender Closing Invalidate - C:\test\MovieStore\MovieStore\logs\2019\04\2019-04-25_Error.log
+2019-04-25 13:46:48.3177 Debug Closed target 'File Target[fileError]'.
+2019-04-25 13:46:48.3177 Debug Finished closing logging configuration.
+2019-04-25 13:46:48.3177 Info Logger has been shut down.
